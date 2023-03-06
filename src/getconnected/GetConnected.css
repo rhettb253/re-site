@@ -1,0 +1,26 @@
+.getconnected {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    background-color: rgba(240, 255, 255, 0.765);
+    /* border: 0.75rem  solid rgba(246, 228, 30, 0.728); */
+    transform: skewX(4deg);
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    margin: 5%;
+}
+
+.question1 {
+    margin: 0 5% 5%;
+}
+
+#introInput {
+    margin: 0 0.5rem;
+    transform: skewX(-4deg);
+    font-size: 1rem;
+    border: 0.125rem solid black;
+    background-color: rgba(240, 255, 255, 0.765);
+}
