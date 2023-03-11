@@ -9,6 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./assets/interior1600.jpeg');
   background-size: cover;
+  background-position: right;
 }
 
 code {
