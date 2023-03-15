@@ -23,7 +23,8 @@ class GetConnected extends React.Component {
             return form;    
         } else if (this.props.clientWantsTo === 'sell') {
             let form = <Seller 
-                sellerInfo={this.props.sellerInfo} />;
+                sellerInfo={this.props.sellerInfo}
+                newSellerHandler={this.props.newSellerHandler} />;
             return form;
         }
     }

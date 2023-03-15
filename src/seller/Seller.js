@@ -29,8 +29,8 @@ class Seller extends React.Component {
                 <div className="question3">
                     <h3>Please tell me about the home you would like to sell:</h3>
                 </div>
-                <form id="buyerform" onSubmit={this.props.newBuyerHandler}>
-                    <fieldset form='buyerform'>
+                <form id="sellerform" onSubmit={this.props.newSellerHandler}>
+                    <fieldset form='sellerform'>
                         <div>
                             <h4>What type of home are you selling?</h4>
                             <input type='checkbox' id='house' name='house' value='house' />
@@ -79,11 +79,11 @@ class Seller extends React.Component {
                             <label htmlFor="beds">Bedrooms:</label>
                             <select name="beds" id="beds">
                                 <option value=''>How many bedrooms does the home have?</option>
-                                <option value='1+'>1 or more</option>
-                                <option value='2+'>2 or more</option>
-                                <option value='3+'>3 or more</option>
-                                <option value='4+'>4 or more</option>
-                                <option value='5+'>5 or more</option>
+                                <option value='1+'>1</option>
+                                <option value='2+'>2</option>
+                                <option value='3+'>3</option>
+                                <option value='4+'>4</option>
+                                <option value='5+'>5</option>
                             </select>
                         </div>
                         <div>
