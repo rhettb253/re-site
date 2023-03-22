@@ -3,6 +3,7 @@ import './App.css';
 import Header from '../header/Header';
 import AboutMe from '../aboutme/AboutMe';
 import GetConnected from '../getconnected/GetConnected';
+import Footer from '../footer/Footer';
 
 class App extends React.Component {
   constructor(props) {
@@ -241,7 +242,7 @@ class App extends React.Component {
           newBuyerHandler={this.updateBuyerInfo}
           sellerInfo={this.state.seller}
           newSellerHandler={this.updateSellerInfo} />
-        {/*<Footer /> */}
+        <Footer />
       </div>
     );
   }
