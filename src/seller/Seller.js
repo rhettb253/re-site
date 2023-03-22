@@ -79,11 +79,11 @@ class Seller extends React.Component {
                             <label htmlFor="beds">Bedrooms:</label>
                             <select name="beds" id="beds">
                                 <option value=''>How many bedrooms does the home have?</option>
-                                <option value='1+'>1</option>
-                                <option value='2+'>2</option>
-                                <option value='3+'>3</option>
-                                <option value='4+'>4</option>
-                                <option value='5+'>5</option>
+                                <option value='1'>1</option>
+                                <option value='2'>2</option>
+                                <option value='3'>3</option>
+                                <option value='4'>4</option>
+                                <option value='5'>5</option>
                             </select>
                         </div>
                         <div>

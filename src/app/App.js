@@ -206,7 +206,7 @@ class App extends React.Component {
           lot: event.target.lot.value,
           bedrooms: event.target.beds.value,
           bathrooms: event.target.baths.value,
-          addressOfHome: event.target.streetaddress.value + event.target.sellCity.value + event.target.zip.value,
+          addressOfHome: event.target.streetaddress.value + " " + event.target.sellCity.value + " " + event.target.zip.value,
           extraInformation: event.target.extraInfo.value,
           timeframe: event.target.timeframe.value,
         }
