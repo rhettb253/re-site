@@ -8,8 +8,12 @@
     width: 100%;
 }
 
-h1{
+h2{
     margin: 5%;
+}
+
+h3{
+    margin-top: 0;
 }
 
 p{
@@ -22,4 +26,18 @@ p{
 
 .indent{
     text-indent: 3rem;
+}
+
+.small p{
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(231, 3, 3);
+}
+
+a:hover {
+    color: blue;
+    font-size: 1.1rem;
 }
