@@ -1,0 +1,43 @@
+.bio {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    background-color: rgba(240, 255, 255, 0.765);
+    transform: skewX(4deg);
+    text-align: center;
+    width: 100%;
+}
+
+h2{
+    margin: 5%;
+}
+
+h3{
+    margin-top: 0;
+}
+
+p{
+    text-align: left;
+    margin: 0 9%;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+}
+
+.indent{
+    text-indent: 3rem;
+}
+
+.small p{
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(231, 3, 3);
+}
+
+a:hover {
+    color: blue;
+    font-size: 1.1rem;
+}
