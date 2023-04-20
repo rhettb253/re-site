@@ -2,7 +2,8 @@ import React from "react";
 import './Page2.css';
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
-import BioService from "../navbar/bioservice/BioService";
+import BioService from "../bioservice/BioService";
+import Reviews from "../reviews/Reviews";
 
 class Page2 extends React.Component{
     render(){
@@ -10,6 +11,7 @@ class Page2 extends React.Component{
             <div className="page2">
                 <Header />
                 <BioService />
+                <Reviews />
                 <Footer />
             </div>
         )
