@@ -1,14 +1,15 @@
 import React from "react";
-import './NavBar.css'
+import './NavBar.css';
+import { Link } from "react-router-dom";
 
 class NavBar extends React.Component {
     render(){
         return(
             <ul>
-                <li><a href="/">HOME</a></li>
-                <li><a href="/about">ABOUT ME</a></li>
-                <li><a href="/prevtransactions">PREVIOUS TRANSACTIONS</a></li>
-                <li><a href="/ftbr">FIRST TIME BUYER RESOURCES</a></li>
+                <li><Link to="/">HOME</Link></li>
+                <li><Link to="/about">ABOUT ME</Link></li>
+                <li><Link to="/prevtransactions">PREVIOUS TRANSACTIONS</Link></li>
+                <li><Link to="/ftbr">FIRST TIME BUYER RESOURCES</Link></li>
             </ul>
         )
     }
