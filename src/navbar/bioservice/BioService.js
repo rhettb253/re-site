@@ -1,5 +1,6 @@
 import React from 'react';
 import './BioService.css';
+import { Link } from 'react-router-dom';
 
 class BioService extends React.Component {
     render() {
@@ -54,7 +55,7 @@ class BioService extends React.Component {
                     <h2>Let's Do This!</h2>
                     <p className='indent'>Clients attest that my enthusiasm for the buying and selling process is contagious. While financing, staging, negotiating and closing can sometimes be a confusing and complicated process, I handle potential roadblocks with grace, confidence, and a smile. My persistence, eye for aesthetics, and work ethic deliver results!
                     </p>
-                    <p className='indent'>If you would like to connect my email is labled below or you can submit the form at the bottom of my <a href="/">HOME</a> page.   
+                    <p className='indent'>If you would like to connect my email is labled below or you can submit the form at the bottom of my <Link to="/">HOME</Link> page.   
                     </p>
 
                 </div>
