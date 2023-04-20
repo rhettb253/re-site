@@ -7,6 +7,15 @@
     transform: skewX(4deg);
     text-align: center;
     width: 100%;
+    padding-top: 3%;
+}
+
+.accord{
+    min-width: 100%;
+    margin-top: 5%;
+    background-color: rgb(240, 255, 255);
+    border-radius: .375rem;
+    transform: skewX(4deg);
 }
 
 h3{

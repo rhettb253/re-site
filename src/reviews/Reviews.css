@@ -1,0 +1,20 @@
+.reviewsSection{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    background-color: rgba(240, 255, 255, 0.765);
+    border-radius: .375rem;
+    transform: skewX(4deg);
+    width: 100%;
+    padding: 3% 3% 5%;
+}
+
+h3{
+    text-align: center;
+    padding-top: 0;
+}
+
+.reviews{
+    display: flex;
+    justify-content: space-around;
+}
