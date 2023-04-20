@@ -3,17 +3,14 @@
     flex-direction: column;
     margin: 5%;
     background-color: rgba(240, 255, 255, 0.765);
+    border-radius: .375rem;
     transform: skewX(4deg);
     text-align: center;
     width: 100%;
 }
 
-h2{
-    margin: 5%;
-}
-
 h3{
-    margin-top: 0;
+    padding: 3%;
 }
 
 p{
