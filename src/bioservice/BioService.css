@@ -18,6 +18,16 @@
     transform: skewX(4deg);
 }
 
+button.accordion-button{
+    font-size: 1.4rem;
+    padding: 0.8rem 1rem;
+}
+
+div.accordion-body{
+    color: #212529;
+    font-size: 1.2rem;
+}
+
 h3{
     padding: 3%;
 }
