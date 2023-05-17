@@ -7,7 +7,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./assets/interior1600.jpeg');
+  background-image: url('./assets/tallinterior.jpeg');
   background-size: cover;
   background-position: right;
 }

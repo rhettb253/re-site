@@ -1,6 +1,7 @@
 import React from "react";
-// import Card from "react-bootstrap/Card";
+import Card from "react-bootstrap/Card";
 import './PrevTrans.css';
+import soldArray from "../soldArray.json";
 
 class PrevTrans extends React.Component {
     render() {
@@ -8,25 +9,15 @@ class PrevTrans extends React.Component {
             <div className="prevtrans">
                 <h2>Previous Transactions</h2>
                 <div className="container">
-                    <div className="row">
-                        <div className="col">
-                            <img src={require("../assets/properties/2731.webp")} />
-                            {/* <div class="card" style={{width: "18rem"}}>
-                                <img src="..." class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
-                            </div> */}
-                        </div>
-                        <div className="col">
-                            Column
-                        </div>
-                        <div className="col">
-                            Column
-                        </div>
-                    </div>
+                    {soldArray.map((property, idx) => (
+                        <Card key={idx} style={{ width: '18rem' }}>
+                        <Card.Body>
+                          <Card.Title>{property.title}</Card.Title>
+                          <Card.Subtitle className="mb-2 text-muted">{property.address}</Card.Subtitle>
+                          <Card.Img src={require('../assets/properties/'+property.path)} />
+                        </Card.Body>
+                      </Card>
+                    ))}
                 </div>
             </div>
         )
@@ -34,3 +25,4 @@ class PrevTrans extends React.Component {
 }
 
 export default PrevTrans
+
